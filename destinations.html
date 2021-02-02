@@ -18,55 +18,58 @@
     <h1>Destinations</h1>
 
     <div id="destinations">
-      <div class="destination">
+      <button class = "buttonleft" onclick="updateCarousel(this.className, 'destination')">LEFT</button>
+      <div class="destination" name = "destination">
         <img src="images/destinations/tower.jpg" />
         <p class="destinationlabel">Tower</p>
       </div>
-      <div class="destination">
+      <div class="destination" name = "destination">
         <img src="images/destinations/edz.jpg" />
         <p class="destinationlabel">EDZ</p>
       </div>
-      <div class="destination">
+      <div class="destination" name = "destination">
         <img src="images/destinations/cosmodrome.jpg" />
         <p class="destinationlabel">Cosmodrome</p>
       </div>
-      <div class="destination">
+      <div class="destination" name = "destination">
         <img src="images/destinations/nessus.jpg" />
         <p class="destinationlabel">Nessus</p>
       </div>
-      <div class="destination">
+      <div class="destination" name = "destination">
         <img src="images/destinations/dreamingcity.jpg" />
         <p class="destinationlabel">Dreaming City</p>
       </div>
-      <div class="destination">
+      <div class="destination" name = "destination">
         <img src="images/destinations/tangledshore.jpg" />
         <p class="destinationlabel">Tangled Shore</p>
       </div>
-      <div class="destination">
+      <div class="destination" name = "destination">
         <img src="images/destinations/moon.jpg" />
         <p class="destinationlabel">Moon</p>
       </div>
-      <div class="destination">
+      <div class="destination" name = "destination">
         <img src="images/destinations/europa.jpg" />
         <p class="destinationlabel">Europa</p>
       </div>
+      <button class = "buttonright" onclick="updateCarousel(this.className, 'destination')">RIGHT</button>
     </div>
 
     <h1>Dungeons</h1>
 
     <div id="destinations">
-        <div class="destination">
+        <div class="destination" name = "dungeon">
           <img src="images/destinations/shatteredthrone.jpg" />
           <p class="destinationlabel">Shattered Throne</p>
         </div>
-        <div class="destination">
+        <div class="destination" name = "dungeon">
           <img src="images/destinations/pitofheresy.jpg" />
           <p class="destinationlabel">Pit of Heresy</p>
         </div>
-        <div class="destination">
+        <div class="destination" name = "dungeon">
           <img src="images/destinations/prophecy.jpg" />
           <p class="destinationlabel">Prophecy</p>
         </div>
       </div>
+      <script src = "script.js"></script>
   </body>
 </html>
